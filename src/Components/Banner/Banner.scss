@@ -1,0 +1,28 @@
+.banner {
+  overflow: hidden; /* Pour cacher le contenu qui dépasse */
+  position: relative;
+  width: 50%;
+  margin-left: 30rem;
+  &_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% * 2);
+    gap: 5rem;
+    animation: scroll 30s linear infinite;
+    &_image {
+      img {
+        width: 100px;
+      }
+    }
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
