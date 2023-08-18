@@ -13,17 +13,11 @@ function Home() {
         <Header/>
         <main>
             <Carousel/>
-            <div className="separator">
-                <div className="separator_line"></div>
-            </div>
+            <div className="separator"></div>
             <Banner/>
-            <div className="separator">
-                <div className="separator_line"></div>
-            </div>
+            <div className="separator"></div>
             <About/>
-            <div className="separator">
-                <div className="separator_line"></div>
-            </div>
+            <div className="separator"></div>
         </main>
         <Footer/>
     </div>
