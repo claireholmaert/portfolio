@@ -1,16 +1,16 @@
 body {
-  background-color: #1B1C1E;
+  background: radial-gradient(circle, rgba(27,28,30,0.90) 10%, rgba(0,0,0,1) 100%);
   font-family: 'Comfortaa', cursive;
   margin: 0;
 }
 
 .separator {
-  margin-left: 15rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+ margin: 5rem auto;
   width: 75%;
   height: 2px;
-  position: relative;
-  background-color: white;
+  background-color: #E1E1E5;
+  @media (max-width: 480px) {
+    width: 90%;
+  }
 }
 

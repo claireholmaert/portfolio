@@ -2,12 +2,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  margin-top: 18rem;
+  margin-bottom: 10rem;
   gap: 5rem;
+  @media (max-width: 1024px) {
+    flex-direction: column-reverse;
+    margin-top: 10rem;
+  }
+  @media (max-width: 1024px) {
+    margin-bottom: 5rem;
+  }
   p {
     color: #FF5400;
     width: 50%;
-  }
+    @media (max-width: 1440px) {
+      width: 40%;
+    }
+    @media (max-width: 1024px) {
+      width: 50%;
+    }
+    @media (max-width: 480px) {
+      width: 85%;
 
+    }
+  }
+  img {
+    height: 300px;
+  }
 }

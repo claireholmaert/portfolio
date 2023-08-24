@@ -12,11 +12,11 @@ function Home() {
     <div className="home">
         <Header/>
         <main>
+            <About/>
+            <div className="separator"></div>
             <Carousel/>
             <div className="separator"></div>
             <Banner/>
-            <div className="separator"></div>
-            <About/>
             <div className="separator"></div>
         </main>
         <Footer/>

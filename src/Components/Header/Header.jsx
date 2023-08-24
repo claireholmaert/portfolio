@@ -7,12 +7,12 @@ function Header() {
         <header>
             <h1>Miliweboss</h1>
             <div className="bar"></div>
-            <nav>
-                <a href="#">Projets</a>
-                <a href="#">Skills</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </nav>
+                <nav>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projets</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </nav>
         </header>
     )
 }
