@@ -20,7 +20,7 @@ function Carousel() {
     {
       title: "PokeFetch",
       image: "/images/pokedex.webp",
-      description: "Un site internet dédié aux Pokemons, intégrer en Angular",
+      description: "Un site internet dédié aux Pokemons, intégrer en Angular avec PokeAPI",
       link: "https://github.com/claireholmaert/PokeFetch",
     },
     {
@@ -42,6 +42,7 @@ function Carousel() {
                     title={carousel.title}
                     image={carousel.image}
                     description={carousel.description}
+                    link={carousel.link}
                 />
               </div>
           ))}
